@@ -12,6 +12,7 @@ function App() {
 
   return (
     <>
+    <ProfileProvider>
       <Router>
       <Layout>
         <Routes>
@@ -20,6 +21,7 @@ function App() {
         </Routes>
       </Layout>
     </Router>
+    </ProfileProvider>
     </>
   )
 }
